@@ -14,13 +14,13 @@ export const UseCases = () => {
       icon: ShoppingCart,
       title: "Consumer Protection",
       description: "Understand your rights in disputes with retailers, service providers, and faulty products",
-      color: "from-purple/20 to-purple/5",
+      color: "from-navy/20 to-navy/5",
     },
     {
       icon: Users,
       title: "Small Civil Disputes",
       description: "Navigate neighbor conflicts, contract disagreements, and minor property issues",
-      color: "from-gold/20 to-purple/5",
+      color: "from-gold/20 to-navy/5",
     },
   ];
 
