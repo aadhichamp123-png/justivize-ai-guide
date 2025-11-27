@@ -1,9 +1,13 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import logo from "@/assets/justice-logo.png";
+import { WaitlistDialog } from "./WaitlistDialog";
 
 export const Hero = () => {
+  const [waitlistOpen, setWaitlistOpen] = useState(false);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       
@@ -61,11 +65,14 @@ export const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gold text-gold-foreground hover:bg-gold/90 text-lg px-8 py-6"
+            onClick={() => setWaitlistOpen(true)}
           >
             Join Waitlist
           </Button>
         </motion.div>
       </div>
+
+      <WaitlistDialog open={waitlistOpen} onOpenChange={setWaitlistOpen} />
     </section>
   );
 };
