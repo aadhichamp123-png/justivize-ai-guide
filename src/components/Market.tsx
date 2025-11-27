@@ -62,7 +62,7 @@ export const Market = () => {
           viewport={{ once: true }}
           className="mt-16 flex justify-center"
         >
-          <div className="border-4 border-purple rounded-lg overflow-hidden max-w-md">
+          <div className="border-2 border-border rounded-lg overflow-hidden max-w-md">
             <div className="bg-gold p-4">
               <div className="w-32 h-32 mx-auto bg-navy/10 rounded-full flex items-center justify-center">
                 <Users className="w-16 h-16 text-navy" />

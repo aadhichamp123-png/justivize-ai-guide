@@ -41,7 +41,7 @@ export const SurveyInsights = () => {
           </p>
         </motion.div>
 
-        <div className="max-w-4xl mx-auto border-4 border-purple rounded-lg p-8 md:p-12 bg-card">
+        <div className="max-w-4xl mx-auto border-2 border-border rounded-lg p-8 md:p-12 bg-card">
           <div className="grid md:grid-cols-3 gap-8">
             {insights.map((insight, index) => (
               <motion.div
