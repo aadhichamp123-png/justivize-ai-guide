@@ -1,12 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Hero } from "@/components/Hero";
+import { Problem } from "@/components/Problem";
+import { Solution } from "@/components/Solution";
+import { UseCases } from "@/components/UseCases";
+import { DemoSection } from "@/components/DemoSection";
+import { Market } from "@/components/Market";
+import { Testimonials } from "@/components/Testimonials";
+import { SurveyInsights } from "@/components/SurveyInsights";
+import { Distribution } from "@/components/Distribution";
+import { Ethics } from "@/components/Ethics";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Hero />
+      <Problem />
+      <Solution />
+      <UseCases />
+      <DemoSection />
+      <Market />
+      <Testimonials />
+      <SurveyInsights />
+      <Distribution />
+      <Ethics />
+      <Footer />
     </div>
   );
 };
