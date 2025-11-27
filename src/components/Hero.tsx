@@ -1,18 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import heroBackground from "@/assets/hero-bg.jpg";
 import logo from "@/assets/justice-logo.png";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroBackground})` }}
-      >
-        <div className="absolute inset-0 bg-navy/80" />
-      </div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <motion.div
@@ -37,7 +30,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-3xl md:text-5xl font-bold text-primary-foreground mb-4"
+          className="text-3xl md:text-5xl font-bold text-navy mb-4"
         >
           AI support for fair everyday justice
         </motion.h2>
@@ -46,7 +39,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-xl md:text-2xl text-gold/90 mb-12 max-w-3xl mx-auto"
+          className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto"
         >
           Upload your case file and get law-based guidance instantly.
         </motion.p>
@@ -67,8 +60,7 @@ export const Hero = () => {
           </Link>
           <Button 
             size="lg" 
-            variant="outline"
-            className="border-2 border-purple text-primary-foreground hover:bg-purple hover:text-accent-foreground text-lg px-8 py-6"
+            className="bg-gold text-gold-foreground hover:bg-gold/90 text-lg px-8 py-6"
           >
             Join Waitlist
           </Button>

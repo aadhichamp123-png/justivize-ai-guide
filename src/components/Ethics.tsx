@@ -67,7 +67,7 @@ export const Ethics = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-navy text-primary-foreground border-4 border-purple rounded-lg p-8"
+            className="bg-navy text-primary-foreground rounded-lg p-8"
           >
             <p className="text-lg md:text-xl leading-relaxed mb-6">
               <span className="font-bold text-gold">Important:</span> Justivize offers information and 
