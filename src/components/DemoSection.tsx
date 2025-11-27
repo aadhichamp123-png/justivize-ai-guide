@@ -74,9 +74,9 @@ export const DemoSection = () => {
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.5 }}
               >
-                <Card className="border-4 border-purple bg-primary-foreground">
+                <Card className="border-2 border-border bg-primary-foreground">
                   <CardContent className="p-8">
-                    <div className="flex items-center gap-3 mb-6 pb-6 border-b-2 border-purple/20">
+                    <div className="flex items-center gap-3 mb-6 pb-6 border-b-2 border-border">
                       <FileText className="w-8 h-8 text-navy" />
                       <div>
                         <h4 className="font-bold text-navy text-xl">Sample Case Document</h4>
@@ -102,22 +102,22 @@ export const DemoSection = () => {
                         </div>
                       </div>
 
-                      <div className="bg-purple/10 border-l-4 border-purple rounded-r-lg p-6">
+                      <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6">
                         <div className="flex items-start gap-3">
-                          <AlertTriangle className="w-6 h-6 text-purple flex-shrink-0 mt-1" />
+                          <AlertTriangle className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                           <div>
                             <h5 className="font-bold text-navy mb-2 text-lg">Recommended Next Steps</h5>
                             <ul className="space-y-2 text-foreground">
                               <li className="flex items-start gap-2">
-                                <span className="text-purple font-bold mt-1">•</span>
+                                <span className="text-accent font-bold mt-1">•</span>
                                 <span>Document the accident scene with photos and witness statements</span>
                               </li>
                               <li className="flex items-start gap-2">
-                                <span className="text-purple font-bold mt-1">•</span>
+                                <span className="text-accent font-bold mt-1">•</span>
                                 <span>Contact your insurance company within 24 hours</span>
                               </li>
                               <li className="flex items-start gap-2">
-                                <span className="text-purple font-bold mt-1">•</span>
+                                <span className="text-accent font-bold mt-1">•</span>
                                 <span>Obtain a police report if injuries or significant damage occurred</span>
                               </li>
                             </ul>

@@ -62,7 +62,7 @@ export const Solution = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gold/10 border-2 border-purple rounded-lg p-8 max-w-4xl mx-auto"
+          className="bg-gold/10 border-2 border-border rounded-lg p-8 max-w-4xl mx-auto"
         >
           <div className="flex items-start gap-4">
             <AlertCircle className="w-8 h-8 text-gold flex-shrink-0 mt-1" />

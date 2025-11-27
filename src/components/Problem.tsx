@@ -36,7 +36,7 @@ export const Problem = () => {
               Pro<span className="text-gold">blem</span>
             </h2>
             
-            <div className="border-4 border-purple rounded-lg bg-gold/30 p-8 mt-8">
+            <div className="border-2 border-border rounded-lg bg-gold/30 p-8 mt-8">
               <ul className="space-y-6">
                 {problems.map((problem, index) => (
                   <motion.li

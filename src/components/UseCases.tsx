@@ -51,7 +51,7 @@ export const UseCases = () => {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full border-2 border-purple/30 hover:border-purple hover:shadow-xl transition-all overflow-hidden group">
+              <Card className="h-full border-2 border-border hover:border-gold hover:shadow-xl transition-all overflow-hidden group">
                 <div className={`h-2 bg-gradient-to-r ${useCase.color}`} />
                 <CardContent className="p-8">
                   <div className="w-16 h-16 mb-6 bg-navy/10 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
