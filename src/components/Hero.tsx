@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import heroBackground from "@/assets/hero-bg.jpg";
 import logo from "@/assets/justice-logo.png";
 
@@ -56,12 +57,14 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Button 
-            size="lg" 
-            className="bg-gold text-gold-foreground hover:bg-gold/90 text-lg px-8 py-6"
-          >
-            Try Demo
-          </Button>
+          <Link to="/demo">
+            <Button 
+              size="lg" 
+              className="bg-gold text-gold-foreground hover:bg-gold/90 text-lg px-8 py-6"
+            >
+              Try Demo
+            </Button>
+          </Link>
           <Button 
             size="lg" 
             variant="outline"
